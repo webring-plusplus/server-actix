@@ -1,0 +1,10 @@
+[package]
+name = "webring-plusplus-server-actix"
+version = "0.1.0"
+authors = ["blakehawkins <blake.hawkins.11@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix-rt  = "1.1"
+actix-web = "3.0"
+serde     = "1.0"
