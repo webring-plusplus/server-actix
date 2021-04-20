@@ -1,6 +1,6 @@
 [package]
 name = "webring-plusplus-server-actix"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["blakehawkins <blake.hawkins.11@gmail.com>"]
 edition = "2018"
 description = "A webring++ service implementation for actix-web"

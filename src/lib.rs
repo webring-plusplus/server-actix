@@ -17,5 +17,5 @@ pub async fn webring_plusplus(links: Vec<Cow<'static, str>>) -> impl Responder {
 }
 
 pub fn webring_plusplus_service(links: Vec<Cow<'static, str>>) -> impl HttpServiceFactory {
-    web::resource("/webring++").route(web::get().to(move || webring_plusplus(links.clone())))
+    web::resource("/webring++.json").route(web::get().to(move || webring_plusplus(links.clone())))
 }
