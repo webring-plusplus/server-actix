@@ -12,7 +12,7 @@ pub struct WebringPlusplus {
 pub async fn webring_plusplus(links: Vec<Cow<'static, str>>) -> impl Responder {
     web::Json(WebringPlusplus {
         version: 1,
-        links: links,
+        links,
     })
 }
 
